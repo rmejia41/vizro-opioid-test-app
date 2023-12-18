@@ -1,0 +1,6 @@
+dash
+pandas
+statsmodels
+vizro
+gunicorn
+dash-tools
