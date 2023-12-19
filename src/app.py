@@ -37,7 +37,7 @@ page = vm.Page(
 
 dashboard = vm.Dashboard(pages=[page])
 
-Vizro().build(dashboard).run()
+Vizro().build(dashboard).run(port=8051)
 
 if __name__ == '__main__':
     app.run_server(debug=False)
